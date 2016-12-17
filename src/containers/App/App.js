@@ -80,6 +80,10 @@ export default class App extends Component {
               {user && <LinkContainer to="/chat">
                 <NavItem eventKey={1}>Chat</NavItem>
               </LinkContainer>}
+              {!user &&
+              <LinkContainer to="/weblinter">
+                <NavItem eventKey={2}>start</NavItem>
+              </LinkContainer>}
             </Nav>
             {user &&
             <p className={styles.loggedInMessage + ' navbar-text'}>Logged in as <strong>{user.name}</strong>.</p>}

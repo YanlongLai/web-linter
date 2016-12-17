@@ -12,6 +12,7 @@ import {
     Survey,
     NotFound,
     Pagination,
+    WebLinter,
   } from 'containers';
 
 export default (store) => {
@@ -52,6 +53,7 @@ export default (store) => {
       <Route path="pagination" component={Pagination}/>
       <Route path="survey" component={Survey}/>
       <Route path="widgets" component={Widgets}/>
+      <Route path="weblinter" component={WebLinter}/>
 
       { /* Catch all route */ }
       <Route path="*" component={NotFound} status={404} />
