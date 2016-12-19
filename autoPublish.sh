@@ -6,4 +6,4 @@ git add -A
 git commit -m "hourly find viki duplicate content on `date`"
 
 # send data to Git server
-git push origin master
+git push yanlonglai master
