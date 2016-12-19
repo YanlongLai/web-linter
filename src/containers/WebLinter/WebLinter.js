@@ -15,7 +15,7 @@ export default class WebLinter extends Component {
         <div className={styles.masthead}>
           <div className="container">
             <p className={styles.humility}>
-              Created and maintained by <a href="https://twitter.com/erikras" target="_blank">@yanlonglai</a>.
+              Created and maintained by <a href="#" target="_blank">@yanlonglai</a>.
             </p>
           </div>
         </div>
