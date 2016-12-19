@@ -2,7 +2,7 @@
 cd ./src/resource/
 
 # Python find duplicate content on Viki
-python ./src/resource/viki.py
+python viki.py
 cd -
 
 # Git: add and commit changes
