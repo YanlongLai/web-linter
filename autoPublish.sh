@@ -5,4 +5,4 @@ python ./src/resource/viki.py
 git commit -a -m "hourly find viki duplicate content on `date`"
 
 # send data to Git server
-git push origin master
+git push
