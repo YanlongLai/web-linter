@@ -24,12 +24,19 @@ Phase 3
 4. let user change url link
 5. use scrapy to scrapy second or third depth link of the homepage
 
-...
+## command
+```
+// get duplicated link and draw on the homepage
+$ python viki.py
+
+// auto run viki and git commit and push result
+$ sh autoPublish.sh
+```
 
 ## Result
 
 We can get a viki homepage and color duplicated link. In order to view the duplicated contents, we use the same color and numebr on the component.
-The result will automatically produced in /src/resource/viki_20161220_00000.html.
+The result will automatically produced in `/src/resource/viki_20161220_00000.html`.
 
 ## My repo
 
