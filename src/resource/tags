@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	test.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:3
+BeautifulSoup	viki.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:3
+Request	test.py	/^from urllib2 import Request$/;"	kind:namespace	line:2
+Request	viki.py	/^from urllib2 import Request$/;"	kind:namespace	line:2
+bsObj	test.py	/^bsObj = BeautifulSoup(html.read(), "html.parser")$/;"	kind:variable	line:9
+bsObj	viki.py	/^bsObj = BeautifulSoup(html.read(), "html.parser")$/;"	kind:variable	line:9
+cardContents	test.py	/^cardContents = bsObj.findAll("div", {"class": "card-content"})$/;"	kind:variable	line:11
+html	test.py	/^html = urlopen(req)$/;"	kind:variable	line:8
+html	viki.py	/^html = urlopen(req)$/;"	kind:variable	line:8
+linkNum	test.py	/^linkNum = 0$/;"	kind:variable	line:10
+linkNum	viki.py	/^linkNum = 0$/;"	kind:variable	line:10
+req	test.py	/^req = Request(url, headers={'User-Agent': 'Mozilla\/5.0'})$/;"	kind:variable	line:7
+req	viki.py	/^req = Request(url, headers={'User-Agent': 'Mozilla\/5.0'})$/;"	kind:variable	line:7
+test.py	test.py	1;"	kind:file	line:1
+time	test.py	/^import time$/;"	kind:namespace	line:4
+time	viki.py	/^import time$/;"	kind:namespace	line:4
+url	test.py	/^url = 'http:\/\/www.viki.com'$/;"	kind:variable	line:6
+url	viki.py	/^url = 'http:\/\/www.viki.com'$/;"	kind:variable	line:6
+urlopen	test.py	/^from urllib2 import urlopen$/;"	kind:namespace	line:1
+urlopen	viki.py	/^from urllib2 import urlopen$/;"	kind:namespace	line:1
+viki.py	viki.py	1;"	kind:file	line:1
